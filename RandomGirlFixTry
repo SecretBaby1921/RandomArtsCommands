@@ -1,0 +1,8 @@
+local options = {
+function()  end,
+function()  end
+}
+
+local randomNum = math.random(1, #options)
+
+options[randomNum]()
